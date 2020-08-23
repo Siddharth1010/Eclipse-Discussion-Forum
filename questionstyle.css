@@ -1,0 +1,242 @@
+body{
+	/*background-color: rgba(2, 63, 120,0.3);*/
+	margin:0%;
+	background-image: url('img.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-image: linear-gradient(to top right, white, #1073b5);
+	margin: 0%;*/
+	overflow: none;
+}
+
+.header{
+	margin: 0%;
+	width: 100%;
+	height: 15%;
+	background-color: rgba(16, 52, 181,0.4);
+}
+
+.hi{
+	padding-top:20px;
+	width: 100%;
+	height: 50%;
+
+
+}
+
+.hi1{
+	/*padding-top: 20px;*/
+	display: inline;
+	margin: 0%;
+	font-family: 'Arial', sans-serif;
+	font-size: 1.5vw;
+	width: 40px;
+
+}
+.hi2{
+	/*padding-top: 20px;*/
+	display: inline-block;
+	margin-top: 0%;
+	margin-left: 27%;
+	/*font-family: 'Arial', sans-serif;
+	font-size: 3vw;*/
+	font-family: 'Krona One', sans-serif;
+	font-size: 3vw;
+	font-weight: 5;
+	width: 200px;
+	/*padding-top: 20px;*/
+
+}
+
+#hi3{
+	/*display: inline;
+	margin-left: 30%;*/
+	font-size: 2.4vw;
+}
+
+.active:hover{
+	color: green;
+	border-radius: 3px;
+}
+
+.dropdown {
+	margin-left: 30%;
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(47, 112, 224,1);
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 25px;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 25px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 25px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.qpanel{
+	margin:2% auto;
+	width:1000px;
+	max-height: 400px;
+	overflow-y: scroll;
+	/* border: 1px solid black; */
+	/* background: rgba(2, 63, 120,0.5); */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.qpanel:hover{
+  transform: scale3d(1,1.1,1);
+  transform-origin: center;
+  font-size: 1.2vw;
+  font-family: 'Arial', sans-serif;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  transform: translateZ(0);
+}
+#div2:hover {
+  /* transform: scaleY(1.2); */
+  transform: scale3d(1,1.05,1);
+  transform-origin: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2vw;
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  backface-visibility: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+#qstyle{
+	padding: 5px;
+	line-height: 2;
+	font-size: 1.2vw;
+	font-family: 'Arial', sans-serif;
+
+}
+
+#div2{
+	width:980px;
+	 min-height: 140px;
+	 border-bottom: 1px solid white;
+	 /*background: rgba(66, 236, 245,1);*/
+   /* background-image: linear-gradient(to bottom right,green,white); */
+   background-color: rgba(167, 193, 199,0.3);
+   word-wrap: break-word;
+   transition:0.3s;
+}
+
+
+button
+{
+	display: inline-block;
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-bottom: 30px;
+    width: 225px;
+    height: 40px;
+    background:rgba(2, 63, 120,0.5);
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+    
+}
+
+button:hover,
+button:focus
+{
+    background: rgba(2, 63, 120,1);
+    transition: 0.2s ease;
+} 
+
+#form1{
+	display: none;
+}
+#form2{
+  display: none;
+}
+
+/*#text2
+{
+    margin-top: 7px;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    display: block;
+    box-sizing: border-box;
+    padding: 4px;
+    width: 350px;
+    height: 100px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: rgba(2, 63, 120,0.5);
+}*/
+
+textarea
+{
+    margin-top: 7px;
+    margin-left: 36%;
+    display: block;
+    box-sizing: border-box;
+    padding: 4px;
+    width: 350px;
+    height: 100px;
+    border: none;
+    outline: none;
+    /*border-bottom: 1px solid #aaa;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;*/
+    background: rgba(2, 63, 120,0.5);
+}
+
+#sub{
+  margin-left: 40%;
+}
+
+#astyle2{
+
+  color: black;
+  /*padding: 5px 5px;*/
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 77%;
+  /*border-radius: 25px;*/
+  position: relative;
+  background-color: rgba(156, 245, 66,1);
+  min-width: 20px;
+  height: 30px;
+  border-radius: 3px;
+  display: inline-block;
+
+}
+
+#astyle2:hover{
+  background-color: red;
+  /*#42f596;*/
+
+}
